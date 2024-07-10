@@ -36,6 +36,5 @@ This is my first machine learning project.
         <li><b>Sensitive to outliers</b>: Extreme data points can significantly skew the results.</li>
     </ul>
     <p>Overall, linear regression is a powerful tool for understanding and predicting relationships between variables. It serves as a stepping stone to more complex machine learning models.</p>
-    <p><b>For further details and interactive visualizations, you can refer to these resources:</b></p>
     <ul>
     </ul>
