@@ -29,4 +29,4 @@ print(f"The mean squared error of the optimal model is {model_error:.2f}")
 from sklearn.metrics import mean_absolute_error
 
 model_error = mean_absolute_error(target, inferred_body_mass)
-print(f"The mean absolute error of the optimal model is {model_error:.2f} g")
+print(f"The mean absolute error of the optimal model is {model_error:.2f}")
