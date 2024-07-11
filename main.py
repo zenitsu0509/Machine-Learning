@@ -18,7 +18,6 @@ predicted_body_mass = (
 )
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 sns.scatterplot(x=train[height], y=target, color="black", alpha=0.5)
 plt.plot(flipper_length_range, predicted_body_mass)
 _ = plt.title("Model using LinearRegression from scikit-learn")
