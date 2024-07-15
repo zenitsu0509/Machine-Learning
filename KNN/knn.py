@@ -117,9 +117,9 @@ X_train_scale = sdscaler.transform(X_train)
 X_test_scale= sdscaler.transform(X_test)
 
 from sklearn.neighbors import KNeighborsClassifier
-knn = KNeighborsClassifier(3)
+clf = KNeighborsClassifier(k = 5)
 
-knn.fit(X_train_scale,y_train)
+clf.fit(X_train_scale,y_train)
 
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -219,7 +219,6 @@ plt.show()
 plt.scatter(X[:,2],X[:,3],c = y,edgecolor = 'k',s =20)
 plt.show()
 
-clf  = knn(k=10)
 clf.fit(X_train,y_train)
 prediction = clf.predict(X_test)
 
