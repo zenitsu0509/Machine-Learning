@@ -3,7 +3,7 @@ data = pd.read_csv("/content/project_9_sample_dataset.csv")
 height = "Height"
 weight = "Weight"
 train,target = data[[height]],data[weight]
-data
+dat
 from sklearn.linear_model import LinearRegression
 linear_regression = LinearRegression()
 linear_regression.fit(train,target)
