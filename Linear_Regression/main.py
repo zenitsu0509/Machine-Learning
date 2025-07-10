@@ -9,7 +9,7 @@ linear_regression.fit(train,target)
 weight_flipper_height = linear_regression.coef_[0]
 weight_flipper_height
 intercept_body_mass = linear_regression.intercept_
-intercept_body_mass
+print("intercept_body_mass")
 import numpy as np
 flipper_length_range = np.linspace(train.min(), train.max(), num=10)
 predicted_body_mass = (
